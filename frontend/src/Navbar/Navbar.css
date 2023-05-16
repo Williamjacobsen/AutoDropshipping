@@ -23,6 +23,7 @@
   padding-left: 0.5%;
   padding-right: 0.5%;
   transition: font-size 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .navbar div h4::after {

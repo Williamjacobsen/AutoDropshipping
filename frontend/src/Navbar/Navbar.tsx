@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <h4>Home</h4>
-        <h4>Products</h4>
-        <h4>About</h4>
-        <h4>Contact Us</h4>
+        <h4>Hjem</h4>
+        <h4>Produkter</h4>
+        <h4>Om os</h4>
+        <h4>Kontakt os</h4>
       </div>
     </div>
   );

@@ -3,3 +3,56 @@
   width: 100vw;
   height: 60vh;
 }
+
+.main div {
+  position: relative;
+  top: 10vh;
+  left: 20vw;
+}
+
+.main h1 {
+  font-size: xxx-large;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main p {
+  width: 40vw;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main h4 {
+  padding-top: 5vh;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+
+  position: relative;
+  display: inline-block;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  transition: font-size 0.25s ease-in-out;
+}
+
+.main h4::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0%;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.main h4:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.main img {
+  position: relative;
+  left: 60vw;
+}
